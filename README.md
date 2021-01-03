@@ -10,8 +10,37 @@
 
 KRX(한국거래소)
 
-### files
+### ipynb files
 
-- stock_get_data.ipynb : Get data using finance data reader library
-- prediction_LSTM.ipynb : Predict next day stock price by LSTM
-- prediction_clustering.ipynb : Predict next day stock price by clustering, DNN
+- stock_get_data.ipynb 
+
+  ```
+  Get data using finance data reader library
+  - 주가 정보 using fdr
+  - 거래주체(기관, 외인) from krx
+  - 재무제표 from naver finance
+  ```
+
+- prediction_LSTM.ipynb
+
+  ```
+  Predict next day stock price by LSTM
+  간단한 LSTM모형을 이용해 주가예측 - fail
+  ```
+
+- prediction_clustering.ipynb 
+
+  ```
+  Predict next day stock price by clustering, DNN
+  최근 주가의 흐름을 clustering을 이용해 분류 후 다음날 주가횡보 예측 - ?
+  시가, 종가, 고가, 거래량 등을 변수로 다음날 주가횡보 예측 - fail
+  ```
+
+- trade_who_price.ipynb
+
+  ```
+  Predict using foreign and institution's trading data
+  기관, 외인들의 순매매량 데이터를 이용해 다음날 주가횡보 예측 - ?
+  ```
+
+  
