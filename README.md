@@ -31,7 +31,7 @@ KRX(한국거래소)
 - prediction_clustering.ipynb 
 
   ```
-  Predict next day stock price by clustering, DNN
+  Predict next day stock price using clustering, DNN
   최근 주가의 흐름을 clustering을 이용해 분류 후 다음날 주가횡보 예측 - ?
   시가, 종가, 고가, 거래량 등을 변수로 다음날 주가횡보 예측 - fail
   ```
@@ -41,6 +41,13 @@ KRX(한국거래소)
   ```
   Predict using foreign and institution's trading data
   기관, 외인들의 순매매량 데이터를 이용해 다음날 주가횡보 예측 - ?
+  ```
+
+- new_high.ipynb
+
+  ```
+  Predict using 'new high price for specific term'
+  특정기간동안(ex 1년) 신고가 갱신한 종목의 횡보
   ```
 
   
