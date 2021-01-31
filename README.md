@@ -47,7 +47,7 @@ KRX(한국거래소)
 
   ```
   Predict using 'new high price for specific term'
-  특정기간동안(ex 1년) 신고가 갱신한 종목의 횡보
+  특정기간동안(ex 1년) 신고가 경신한 종목의 횡보
   ```
 
   
